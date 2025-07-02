@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+
+}
+.logo {
+    font-family: "great vibes";
+    font-size: 32px;
+}
+.navigation {
+    position: absolute;
+    top: 0;
+    padding: 30px 50px;
+}
+.nav-links {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.fa {
+    color: white;
+}
+.first {
+    height: 600px;
+    overflow: hidden;
+}
+.first-cta {
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+.first-header {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.book-now {
+    padding: 18px 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    color: #23395B;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 10px;
+    background-color: #F4D35E;
+}
