@@ -1,34 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aero Wave Homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="'https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:wght@400;600;700&family=Roboto:wght@300;400&display=swap'">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pavanam&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    
+
     <main>
-        <section class="first">
-            <img class="first-img" src="./images/back-2.jpg" alt="boat on water">
-            <header>
+        <section class="hero">
+            <header class="header">
                 <nav class="navigation">
-                    <a class="logo" href="./index.html"><span class="aero">Aero</span>Wave</a>
-                    <ul class="nav-links">
-                        <li><a class="page" href="./index.html">Home</a></li>
-                        <li><a class="page" href="">Destinations</a></li>
-                        <li><a class="page" href="">Contacts</a></li>
+                    <a class="nav-logo" href="./index.html"><span class="aero">Aero</span>Wave</a>
+                    <ul class="nav-list">
+                        <li class="nav-list-item"><a href="">Home</a></li>
+                        <li class="nav-list-item"><a href="">Destinations</a></li>
+                        <li class="nav-list-item"><a href="">Contacts</a></li>
                     </ul>
-                    <i class="fa" style="font-size: 24px;">&#xf27a;</i>
+                    <button class="nav-contact-button">
+                        <svg class="icon" width="52px" height="52px">
+                            <use href="./images/icons/icons.svg#icon-message"></use>
+                        </svg>
+                    </button>
                 </nav>
             </header>
-            <div class="first-cta">
-                <h1 class="first-header">Make your trip <br> Unforgettable</h1>
-                <button class="book-now">Book Now</button>
+            <div class="container">
+                <h1 class="hero-header">Make your trip Unforgettable</h1>
+                <button class="hero-button">Book Now</button>
+            </div>
+        </section>
+        <section class="popular">
+            <div class="container">
+                <h2 class="popular-header">Popular Destinations</h2>
+                <ul class="popular-list">
+                    <li>
+                        <button class="popular-arrow-button">
+                            <svg width="12px" height="22px">
+                                <use href="./images/icons/icons.svg#icon-arrow" />
+                            </svg>
+                        </button>
+                    </li>
+                    <li>
+                        <ul class="popular-cards-list">
+                            <li class="popular-card">
+                                <h3 class="card-header">Adriatic Escape: Croatia & Montenegro</h3>
+                            </li>
+                            <li class="popular-card">
+                                <h3 class="card-header">Aegean Odyssey: Greece’s Islands </h3>
+                            </li>
+                            <li class="popular-card">
+                                <h3 class="card-header">Tropical Serenity: Bali Temples & Culture</h3>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button class="popular-arrow-button">
+                            <svg width="12px" height="22px" transform="scale(-1 1)">
+                                <use href="./images/icons/icons.svg#icon-arrow" />
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="choose">
+            <div class="container">
+                <h2 class="choose-header">Why Choose Us</h2>
+                <div class="choose-block">
+                    <img class="choose-image"
+                        srcset="./images/background/back-4.jpg 1x, ./images/background/back-4@2x.jpg 2x"
+                        src="./images/background/back-4.jpg" alt="">
+                    <ul class="choose-list">
+                        <li class="choose-list-item">
+                            <svg class="icon" height="26" width="29">
+                                <use href="./images/icons/icons.svg#icon-check"></use>
+                            </svg>
+                            <div class="choose-list-item-block">
+                                <h3 class="choose-list-item-header">Expertly Crafted Itineraries</h3>
+                                <p class="choose-list-item-descr">We design every trip with care, balancing must-see
+                                    sights
+                                    and hidden gems.</p>
+                            </div>
+                        </li>
+                        <li class="choose-list-item">
+                            <svg class="icon" height="26" width="29">
+                                <use href="./images/icons/icons.svg#icon-check"></use>
+                            </svg>
+                            <div class="choose-list-item-block">
+                                <h3 class="choose-list-item-header">Local Guides, Global Expertise</h3>
+                                <p class="choose-list-item-descr">Our guides bring destinations to life with authentic
+                                    stories and insider tips.</p>
+                            </div>
+                        </li>
+                        <li class="choose-list-item">
+                            <svg class="icon" height="26" width="29">
+                                <use href="./images/icons/icons.svg#icon-check"></use>
+                            </svg>
+                            <div class="choose-list-item-block">
+                                <h3 class="choose-list-item-header">Hassle-Free Travel</h3>
+                                <p class="choose-list-item-descr">From booking to boarding, we handle all the details so
+                                    you
+                                    can simply enjoy the journey.</p>
+                            </div>
+                        </li>
+                        <li class="choose-list-item">
+                            <svg class="icon" height="26" width="29">
+                                <use href="./images/icons/icons.svg#icon-check"></use>
+                            </svg>
+                            <div class="choose-list-item-block">
+                                <h3 class="choose-list-item-header">Best Price Guarantee</h3>
+                                <p class="choose-list-item-descr">Premium travel experiences at the most competitive
+                                    rates.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <a class="footer-logo" href="./index.html"><span class="aero">Aero</span>Wave</a>
+                <p class="footer-descr">Your trusted partner for unforgettable journeys across the globe.</p>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
